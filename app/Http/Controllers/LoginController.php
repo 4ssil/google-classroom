@@ -16,6 +16,7 @@ class LoginController extends Controller
 		$client->setPrompt('select_account consent');
 		$authUrl = $client->createAuthUrl();
 		print_r($authUrl);
+		//sss
 
 	}
 }
