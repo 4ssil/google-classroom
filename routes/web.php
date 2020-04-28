@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'LoginController@login');
+Route::get('googleouthcallback', 'LoginController@googleouthcallback');
+Route::get('dashboard/list_courses', 'DashboardController@list_courses');
