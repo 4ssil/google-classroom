@@ -121,12 +121,12 @@
 
 <script type="text/javascript">
   function show_course_details(courseId) {
-    $('#course_list').hide();
-    $('#course'+courseId).show();
+    $('#course_list').hide(900);
+    $('#course'+courseId).show(1100);
   }  
   function show_courses() {
-    $('#course_list').show();
-    $('.course_details').hide();
+    $('#course_list').show(1100);
+    $('.course_details').hide(900);
   }
 </script>
 
