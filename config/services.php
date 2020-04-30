@@ -30,9 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     // 'google' => [
-    //     'client_id'     => env('317224244604-73du2bv4aam48jovaraoe1ok7bj3f0ug.apps.googleusercontent.com'),
-    //     'client_secret' => env('-97l7s_e0l84XU6VPwkCGZZ0'),
-    //     'redirect'      => env('https://g-classroom.virgoworlds.com/googleouthcallback')
+    //     'client_id'     => env(''),
+    //     'client_secret' => env(''),
+    //     'redirect'      => env('')
     // ],
 
 ];
